@@ -1,5 +1,5 @@
-import 'package:flutter_ocr_sederhana/material.dart';
-import 'screens/splash _screen.dart';
+import 'package:flutter/material.dart';
+import 'screens/splash_screen.dart';
 
 void main() {
   runApp(const MyApp());
