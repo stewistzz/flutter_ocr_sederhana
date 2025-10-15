@@ -1,4 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Menambahkan permission untuk camera -->
+    <uses-permission android:name="android.permission.CAMERA"/>
     <application
         android:label="flutter_ocr_sederhana"
         android:name="${applicationName}"
