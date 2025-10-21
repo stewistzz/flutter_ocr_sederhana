@@ -10,14 +10,24 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: const Text('Menu Utama OCR_Dimas')),
       body: Center(
-        child: ElevatedButton(
-          onPressed: () {
+        // child: ElevatedButton(
+        //   onPressed: () {
+        //     Navigator.push(
+        //       context,
+        //       MaterialPageRoute(builder: (_) => ScanScreen()),
+        //     );
+        //   },
+        //   child: const Text('Mulai Scan Teks'),
+        // ),
+        child: ListTile(
+          title: const Text('Mulai Pindai Teks Baru'),
+          leading: const Icon(Icons.camera_alt, color: Colors.blue),
+          onTap: () {
             Navigator.push(
               context,
               MaterialPageRoute(builder: (_) => ScanScreen()),
             );
           },
-          child: const Text('Mulai Scan Teks'),
         ),
       ),
     );
