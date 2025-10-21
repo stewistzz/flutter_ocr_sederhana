@@ -9,33 +9,6 @@ class ResultScreen extends StatefulWidget {
 
   @override
   State<ResultScreen> createState() => _ResultScreenState();
-
-  // @override
-  // Widget build(BuildContext context) {
-  //   return Scaffold(
-  //     appBar: AppBar(title: const Text('Hasil OCR')),
-  //     body: Padding(
-  //       padding: const EdgeInsets.all(16.0),
-  //       child: SingleChildScrollView(
-  //         child: SelectableText(
-  //           ocrText.isEmpty ? 'Tidak ada teks ditemukan.' : ocrText,
-  //           style: const TextStyle(fontSize: 18),
-  //         ),
-  //       ),
-  //     ),
-
-  //     floatingActionButton: FloatingActionButton(
-  //       onPressed: () {
-  //         Navigator.pushAndRemoveUntil(
-  //           context,
-  //           MaterialPageRoute(builder: (_) => const HomeScreen()),
-  //           (route) => false,
-  //         );
-  //       },
-  //       child: const Icon(Icons.home),
-  //     ),
-  //   );
-  // }
 }
 
 class _ResultScreenState extends State<ResultScreen> {
